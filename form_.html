@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ลงทะเบียน</title>
+</head>
+
+<body>
+    <h2 align="center">ลงทะเบียน</h2>
+    <form align="center">
+        <div>
+            <label for="">ชาย</label>
+            <input type="radio" name="men">
+            <label for="">หญิง</label>
+            <input type="radio" name="women">
+        </div>
+        <div>
+            <label for="fname">ชื่อจริง:</label>
+            <input type="text" id="fname" name="fname" placeholder="ชื่อจริงตามบัตรปชช."><br><br>
+            <input type="hidden" id="custId" name="custId" value="3487">
+        </div>
+        <div>
+            <label for="f_name">นามสกุล</label>
+            <input type="text" name="l_name" placeholder="นามสกุลตามบัตรปชช.">
+        </div>
+        <div>
+            <label for="E_mail">email</label>
+            <input type="email" name="email" placeholder="email@adress.com">
+        </div>
+        <div>
+            <label for="password">รหัสผ่าน</label>
+            <input type="password" name="password">
+            <input type="button" onclick="alert('รหัสผ่านถูกต้อง')" value="ตรวจสอบ">
+        </div><br>
+        <div>
+            <label for="appt">เวลาเข้าใช้งาน</label>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        </div><br>
+        <div>
+            <label for="">ที่อยู่</label>
+            <textarea name="" cols="25" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="">อายุ</label>
+            <input type="number" name="age" min="0" max="60" value="0">
+        </div>
+        <div>
+            <label for="">วันเกิด</label>
+            <input type="date" name="birtdate">
+        </div>
+        <div>
+            <label for="">เบอร์โทร</label>
+            <input type="tel" name="tel">
+        </div>
+        <div>
+            <label for="">สีที่ชอบ</label>
+            <input type="color" name="color">
+        </div>
+        <div>
+            <label for="myfile">ไฟล์งาน</label>
+            <input type="file" id="myfile" name="myfile"><br><br>
+        </div>
+        <div>
+            <label for="img">รูปตัวเอง</label>
+            <input type="image" name="img"><br><br>
+        </div>
+        <div>
+            <label for="homepage">ลิงค์งาน</label>
+            <input type="url"  name="homepage">
+        </div>
+        <input type="submit">
+    </form>
+    
+</body>
+
+
+
+
+
+
+</html>
